@@ -1,14 +1,14 @@
 cask "moogh" do
-  version "2026.9.28-1"
+  version "2026.9.30-1"
 
   on_arm do
-    sha256 "7fe26d9909ec6261643145a07d84d0334a453cd8072e646d6d3cb9425663daca"
+    sha256 "c1850edd1e82ce819c56182fbadf0ef50553d4a8765bcaa3b6a7145e063cfa0c"
 
     url "https://down.aimoogh.com/downloads/mac_arm64/stable/#{version}/moogh-mac-arm64-#{version}.zip"
   end
 
   on_intel do
-    sha256 "8e6162637e2cc72aa8c7a220b94d984a821f6ef26ef1b016dab7f4e6fc79dbc6"
+    sha256 "5c747beed1287204f29d76c0e581c4f52b3d9823a772e4e1340792c464570a62"
 
     url "https://down.aimoogh.com/downloads/mac_x64/stable/#{version}/moogh-mac-x64-#{version}.zip"
   end
